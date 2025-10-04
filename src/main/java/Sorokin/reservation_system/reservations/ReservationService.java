@@ -22,7 +22,6 @@ public class ReservationService {
     public ReservationService(ReservationRepository reservationRepository,
                               ReservationMapper reservationMapper,
                               ReservationAvailabilityService reservationAvailabilityService) {
-        log.info("");
         this.reservationRepository = reservationRepository;
         this.reservationMapper = reservationMapper;
         this.reservationAvailabilityService = reservationAvailabilityService;
